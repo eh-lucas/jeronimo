@@ -13,11 +13,9 @@ toc: false
   de Benjamin L. D'Ooge (1911).
 {{< /hextra/hero-subtitle >}}
 
-<br />
-
-{{< hextra/hero-button text="Começar a estudar" link="docs" >}}
-
 <br /><br />
+
+## Índice
 
 {{< cards >}}
   {{< card link="docs/introducao" title="Ao estudante" subtitle="A título de introdução — o que é o latim e por que estudá-lo." >}}
