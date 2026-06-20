@@ -1,0 +1,9 @@
+{{- /* Uso: {{< lat "Galba est agricola" "Galba é agricultor" >}}
+        1º arg = texto latino (obrigatório); 2º arg = glosa/tradução (opcional). */ -}}
+{{- $latim := .Get 0 -}}
+{{- $glossa := .Get 1 -}}
+{{- if $glossa -}}
+<span class="lat-block"><span class="lat">{{ $latim }}</span><span class="glossa">{{ $glossa }}</span></span>
+{{- else -}}
+<span class="lat">{{ $latim }}</span>
+{{- end -}}

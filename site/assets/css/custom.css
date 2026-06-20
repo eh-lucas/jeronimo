@@ -1,0 +1,74 @@
+/* ===== Estilos do manual de latim ===== */
+
+:root {
+  --lat-cor: #9a4b00;
+  --glossa-cor: #6b7280;
+}
+.dark {
+  --lat-cor: #e0a060;
+  --glossa-cor: #9ca3af;
+}
+
+/* Palavras/exemplos em latim */
+.lat {
+  font-weight: 600;
+  color: var(--lat-cor);
+}
+
+/* Bloco de exemplo: latim + glosa logo abaixo */
+.lat-block {
+  display: inline-block;
+  margin: 0.15rem 0;
+}
+.lat-block .glossa {
+  display: block;
+}
+
+/* Glosa / tradução sob o exemplo */
+.glossa {
+  font-style: italic;
+  color: var(--glossa-cor);
+  font-size: 0.92em;
+}
+
+/* Cognatos / derivados entre parênteses */
+.deriv {
+  color: var(--glossa-cor);
+  font-size: 0.88em;
+}
+
+/* Número de seção (§) */
+.sec {
+  font-weight: 700;
+  color: var(--lat-cor);
+  margin-right: 0.15rem;
+}
+
+/* ===== Poema bilíngue (Excelsior) ===== */
+.poema {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0;
+}
+.poema td {
+  vertical-align: top;
+  padding: 0.4rem 1.2rem 0.4rem 0;
+  border: none;
+  width: 50%;
+  line-height: 1.6;
+}
+.poema .pt {
+  color: inherit;
+}
+.poema .la {
+  color: var(--lat-cor);
+}
+.poema .refrao {
+  font-style: italic;
+  padding-left: 1rem;
+}
+@media (max-width: 640px) {
+  .poema, .poema tbody, .poema tr, .poema td { display: block; width: 100%; }
+  .poema td { padding-right: 0; }
+  .poema .la { margin-bottom: 1rem; }
+}

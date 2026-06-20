@@ -1,0 +1,51 @@
+baseURL = "https://EXAMPLE.github.io/latim/"
+locale = "pt-br"
+title = "Latim para Iniciantes"
+theme = "hextra"
+
+enableInlineShortcodes = true
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+[params]
+  description = "Tradução para o português brasileiro de Latin for Beginners, de Benjamin L. D'Ooge (1911)."
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+
+  [params.page]
+    width = "normal"
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.footer]
+    enable = true
+    displayCopyright = true
+    displayPoweredBy = false
+
+[menu]
+  [[menu.main]]
+    name = "Manual"
+    pageRef = "/docs"
+    weight = 1
+  [[menu.main]]
+    name = "Busca"
+    weight = 2
+    [menu.main.params]
+      type = "search"
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/EXAMPLE/latim"
+    weight = 3
+    [menu.main.params]
+      icon = "github"

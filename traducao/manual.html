@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Latim para Iniciantes — D'Ooge (tradução PT-BR)</title>
+<style>
+  :root { --azul:#2c3e6b; --cinza:#555; --borda:#d6d6d6; --destaque:#fdf6e3;
+          --lat:#7a3b00; --nav:#eef1f7; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7; color: #222; max-width: 860px;
+    margin: 0 auto; padding: 2.5rem 1.5rem 5rem; background: #fafafa;
+  }
+  header.capa { border-bottom: 3px double var(--azul); margin-bottom: 1.5rem; padding-bottom: 1rem; }
+  h1 { color: var(--azul); font-size: 2rem; margin: 0 0 .3rem; }
+  .subtitulo { color: var(--cinza); font-style: italic; margin: 0; }
+  .fonte { font-size: .85rem; color: #888; margin-top: .6rem; }
+  h2.parte { color:#fff; background: var(--azul); font-size:1.35rem;
+             margin:2.6rem 0 1rem; padding:.5rem .8rem; border-radius:6px; }
+  h3.licao { color: var(--azul); font-size:1.4rem; margin-top:2.4rem;
+             border-bottom:2px solid var(--azul); padding-bottom:.2rem; }
+  h4.sub { color: var(--azul); font-size:1.05rem; letter-spacing:.04em;
+           text-transform:uppercase; margin-top:1.8rem; }
+  h5.tema { color: var(--lat); font-size:1.1rem; margin-top:1.6rem; }
+  .sec { font-weight:bold; color: var(--azul); }
+  .lat { font-weight:bold; color: var(--lat); }
+  .ing { font-style:italic; color: var(--cinza); }
+  .glossa { display:block; font-style:italic; color: var(--cinza); font-size:.92rem; }
+  .nota { background: var(--destaque); border:1px solid #eadbb0; border-radius:6px;
+          padding:.7rem 1rem; margin:1rem 0; font-size:.95rem; }
+  .obs { font-size:.92rem; color: var(--cinza); border-left:3px solid var(--borda);
+         padding-left:.8rem; margin:.8rem 0; }
+  table { border-collapse:collapse; margin:1rem 0; width:100%; }
+  td, th { border:1px solid var(--borda); padding:.5rem .8rem; vertical-align:top; }
+  th { background: var(--azul); color:#fff; text-align:left; }
+  .num { text-align:right; color:#999; width:2.2rem; }
+  .lado { background: var(--nav); font-weight:bold; width:95px; }
+  nav.toc { background: var(--nav); border:1px solid var(--borda); border-radius:8px;
+            padding:1rem 1.3rem; margin-bottom:2rem; }
+  nav.toc h2 { margin:.2rem 0 .6rem; font-size:1.05rem; color: var(--azul); }
+  nav.toc a { color: var(--azul); text-decoration:none; }
+  nav.toc a:hover { text-decoration:underline; }
+  nav.toc ul { margin:.3rem 0; padding-left:1.2rem; }
+  ul.vocab { list-style:none; padding-left:0; columns:2; column-gap:2rem; }
+  ul.vocab li { margin:.25rem 0; break-inside:avoid; }
+  .deriv { color:#888; font-size:.88rem; }
+  .verso td { border:none; padding:.3rem 1rem .3rem 0; }
+  .verso .lat { color: var(--lat); font-weight:normal; }
+  footer { margin-top:3.5rem; border-top:1px solid var(--borda); padding-top:1rem;
+           font-size:.85rem; color:#888; }
+  hr { border:none; border-top:1px solid var(--borda); margin:2.5rem 0; }
+</style>
+</head>
+<body>
+
+<header class="capa">
+  <h1>Latim para Iniciantes</h1>
+  <p class="subtitulo">Benjamin L. D'Ooge — tradução para o português brasileiro</p>
+  <p class="fonte">Original: <em>Latin for Beginners</em> (Ginn and Company, 1911) · domínio público · Project Gutenberg eBook&nbsp;#18251</p>
+</header>
+
+<nav class="toc">
+  <h2>Índice</h2>
+  <ul>
+    <li><a href="#intro">Ao estudante — a título de introdução</a></li>
+    <li><a href="#parte1">Parte I — A pronúncia do latim</a>
+      <ul>
+        <li><a href="#alfabeto">O alfabeto (§§1–3)</a></li>
+        <li><a href="#sons">Os sons das letras (§§4–7)</a></li>
+        <li><a href="#silabas">Sílabas (§§8–10)</a></li>
+        <li><a href="#quantidade">Quantidade (§§11–13)</a></li>
+        <li><a href="#acento">Acento (§§14–16)</a></li>
+        <li><a href="#ler">Como ler latim (§§17–18)</a></li>
+      </ul>
+    </li>
+    <li><a href="#parte2">Parte II — Palavras e formas</a>
+      <ul>
+        <li><a href="#licao1">Lição I — Primeiros princípios (§§19–22)</a></li>
+        <li><a href="#licao2">Lição II — Primeiros princípios (cont.) (§§23–31)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<div class="nota">
+  <strong>Nota do tradutor.</strong> A Parte I do original ensina a pronúncia do latim
+  comparando-a com sons do <em>inglês</em>. Como essas comparações não ajudam (e por vezes
+  confundem) o falante de português, elas foram <strong>adaptadas para equivalentes em
+  português brasileiro</strong>. Os exemplos em latim foram preservados, com macrons
+  (vogal longa, ā) e breves (vogal breve, ă). Onde o português não possui som equivalente,
+  isso é assinalado.
+</div>
+
+<!-- ============================ INTRODUÇÃO ============================ -->
+<h2 class="parte" id="intro">Ao estudante — a título de introdução</h2>
+
+<p><strong>O que é o latim?</strong>
+Se você observar o mapa da Itália, encontrará, perto do centro da península e voltado para
+a costa oeste, uma região chamada <em>Lácio</em>, tendo Roma por capital. A língua latina —
+isto é, a língua do Lácio — era falada pelos antigos romanos e pelos demais habitantes do
+Lácio, e recebeu o nome de <em>latim</em> depois que os exércitos de Roma levaram o
+conhecimento de sua língua muito além das fronteiras originais. Assim como o português de
+hoje não é exatamente igual ao que se falava há dois ou três séculos, também o latim não foi
+sempre o mesmo em todas as épocas, mas mudou mais ou menos no correr dos séculos. O tipo de
+latim que você vai aprender estava em uso há cerca de dois mil anos. Esse período foi
+escolhido porque a língua estava então no seu auge e as maiores obras da literatura romana
+estavam sendo produzidas. Por sua excelência suprema, esse período é chamado de
+<em>Idade de Ouro</em> das letras romanas.</p>
+
+<p class="obs">No original em latim, <em>Latium</em>.</p>
+
+<p><strong>A difusão do latim.</strong>
+Durante alguns séculos após a fundação de Roma, os romanos eram um povo fraco e
+insignificante; seu território limitava-se ao Lácio, e sua existência era constantemente
+ameaçada por vizinhos belicosos. Mas, a partir do terceiro século antes de Cristo, o poder
+de Roma cresceu rapidamente. Ela conquistou toda a Itália, depois estendeu-se às terras do
+outro lado do mar e além dos Alpes e, por fim, dominou todo o mundo antigo. O império assim
+estabelecido durou mais de quatrocentos anos. A importância do latim cresceu junto com o
+poder romano, e o que fora um dialeto falado por uma única tribo tornou-se a língua
+universal. Aos poucos a língua se modificou, desenvolvendo-se de modos diferentes em países
+diferentes. Na Itália tornou-se o italiano; na Espanha, o espanhol; na França, o francês.
+Todas essas nações, portanto — e também Portugal e o Brasil, com o português —, falam uma
+forma modernizada do latim.</p>
+
+<p><strong>Os romanos e os gregos.</strong>
+Em sua carreira de conquistas, os romanos entraram em conflito com os gregos. Os gregos eram
+inferiores aos romanos em poder militar, mas muito superiores em cultura. Sobressaíam-se na
+arte, na literatura, na música, na ciência e na filosofia. De todas essas atividades os
+romanos eram ignorantes até que o contato com a Grécia lhes revelou o valor da educação e os
+encheu de sede de conhecimento. E assim aconteceu que, enquanto Roma conquistou a Grécia pela
+força das armas, a Grécia conquistou Roma pela força de sua superioridade intelectual e
+tornou-se sua mestra. Logo se firmou o costume de os jovens romanos irem a Atenas e a outros
+centros de saber grego concluir sua formação, e o conhecimento da língua grega entre as
+classes cultas tornou-se universal. Ao mesmo tempo, muitos gregos cultos — poetas, artistas,
+oradores e filósofos — afluíram a Roma, abriram escolas e ensinaram suas artes. De fato, a
+preeminência da cultura grega tornou-se tão grande que Roma quase perdeu sua ambição de ser
+original, e seus escritores rivalizavam entre si no esforço de reproduzir em latim o que havia
+de mais seleto na literatura grega. Em consequência de tudo isso, a civilização e a vida
+nacional de Roma tornaram-se em grande parte gregas, e foi à Grécia que ela deveu sua
+literatura e sua arte.</p>
+
+<p><strong>Roma e o mundo moderno.</strong>
+Depois de conquistar o mundo, Roma imprimiu sua língua, suas leis, seus costumes de vida e
+seus modos de pensar nas nações subjugadas, e elas se tornaram romanas; e o mundo permaneceu
+em grande medida romano desde então. O latim continuou vivo, e o conhecimento do latim foi a
+única luz do saber que ardeu sem se apagar ao longo da Idade das Trevas que se seguiu à queda
+do Império Romano. O latim era a língua comum dos eruditos e assim permaneceu até os dias de
+Shakespeare. Ainda hoje ele é, mais do que qualquer outra língua, o idioma universal dos
+sábios. A vida de hoje está muito mais próxima da vida da antiga Roma do que o passar dos
+séculos levaria a supor. Você e eu ainda somos romanos de muitas maneiras e, se César e
+Cícero aparecessem entre nós, não os acharíamos — exceto pela roupa e pela língua — muito
+diferentes dos homens de hoje.</p>
+
+<p><strong>O latim e o português.</strong>
+Você sabia que o português é, em sua maior parte, latim modernizado, e que você fala latim
+todos os dias? Como isso aconteceu? O português descende diretamente do latim falado pelos
+romanos na Península Ibérica. Com a evolução dos séculos, esse latim popular transformou-se
+no galego-português e, depois, no português. Além disso, grande número de palavras quase
+puramente latinas entrou na língua pela escrita dos eruditos, e cada nova descoberta
+científica é marcada pela adição de novos termos de origem latina. Por isso, embora as
+palavras mais simples e mais comuns do dia a dia também venham do latim, é nos domínios da
+literatura e, sobretudo, das profissões eruditas — como o direito, a medicina e a engenharia
+— que o conhecimento do latim se mostra necessário para a correta interpretação dos termos
+técnicos e científicos.</p>
+
+<p class="obs">No original em inglês, este trecho explica como o latim moldou o
+<em>inglês</em> (sobretudo pela invasão normanda de 1066). Foi adaptado aqui para o caso do
+português, cuja relação com o latim é ainda mais direta — por descendência, e não apenas por
+empréstimo.</p>
+
+<p><strong>Por que estudar latim?</strong>
+Os parágrafos anteriores deixam claro por que o latim ocupa parte tão importante na educação
+moderna. Vimos que nossa civilização repousa sobre a da Grécia e a de Roma e que precisamos
+olhar para o passado se quisermos compreender o presente. É evidente, também, que o
+conhecimento do latim não só conduz a um uso mais exato e eficaz de nossa própria língua, mas
+é de importância vital e de grande valor prático para quem se prepara para uma carreira
+literária ou profissional. A isto se acrescenta que o estudo do latim lança uma torrente de
+luz sobre a estrutura da linguagem em geral e estabelece uma excelente base para todo estudo
+gramatical. Por fim, está fartamente provado que não há meio mais eficaz de fortalecer a
+mente do que a dedicação séria a este ramo do saber.</p>
+
+<p><strong>Questões de revisão.</strong>
+De onde o latim tira seu nome? Onde fica o Lácio? Onde fica Roma? O latim foi sempre o mesmo?
+Que tipo de latim vamos estudar? Descreva o crescimento do poder de Roma e a difusão do latim.
+O que se pode dizer da origem do italiano, do francês, do espanhol e do português? Como se
+comparavam os antigos gregos e romanos? Como a Grécia influenciou Roma? Como Roma influenciou
+o mundo? Em que sentido ainda somos romanos? Que relação tem o latim com a formação do
+português? Por que devemos estudar latim?</p>
+
+<hr />
+
+<!-- ============================ PARTE I ============================ -->
+<h2 class="parte" id="parte1">Parte I — A pronúncia do latim</h2>
+
+<h4 class="sub" id="alfabeto">O alfabeto</h4>
+
+<p><span class="sec">1.</span> O alfabeto latino contém as mesmas letras do nosso, exceto que
+não tem <em>w</em> nem <em>j</em>.</p>
+
+<p><span class="sec">2.</span> As vogais latinas são <em>a, e, i, o, u, y</em>. As demais
+letras são consoantes.</p>
+
+<p class="obs">No português, as vogais próprias são apenas <em>a, e, i, o, u</em>; o
+<em>y</em> não é vogal do nosso alfabeto. Em latim, porém, o <em>y</em> conta como vogal,
+aparecendo em palavras de origem grega (era pronunciado como o <em>u</em> francês ou o
+<em>ü</em> alemão).</p>
+
+<p><span class="sec">3.</span> O <em>i</em> serve tanto de vogal quanto de consoante. Diante de
+uma vogal na mesma sílaba, tem valor de consoante e é chamado de <em>i consoante</em>.</p>
+
+<p class="obs">Assim, em <span class="lat">Iū-li-us</span> o primeiro <em>i</em> é consoante (som
+de /j/, como em "iate") e o segundo é vogal.</p>
+
+<h4 class="sub" id="sons">Os sons das letras</h4>
+
+<div class="nota">Os sons aprendem-se melhor ouvindo-os pronunciar corretamente. Esta seção
+serve mais para consulta do que para ser decorada. Lembre-se de que as comparações abaixo
+foram <strong>adaptadas ao português brasileiro</strong>.</div>
+
+<p><span class="sec">4.</span> O latim não era pronunciado como o português. Os romanos, no
+início da era cristã, pronunciavam sua língua substancialmente como se descreve a seguir.</p>
+
+<p><span class="sec">5.</span> As vogais têm os seguintes sons (¯ marca a vogal longa; ˘, a
+breve):</p>
+
+<table>
+  <tr><th>Vogal</th><th>Som (equivalente em português)</th><th>Exemplos latinos</th></tr>
+  <tr><td><b>ā</b></td><td>como o <em>a</em> de "p<strong>á</strong>", porém prolongado</td><td class="lat">hāc, stās</td></tr>
+  <tr><td><b>ă</b></td><td>como o <em>a</em> de "c<strong>a</strong>sa", breve</td><td class="lat">ă´-măt, că-nās</td></tr>
+  <tr><td><b>ē</b></td><td>como o <em>ê</em> fechado de "m<strong>ê</strong>s"</td><td class="lat">tē´-lă, mē´-tă</td></tr>
+  <tr><td><b>ĕ</b></td><td>como o <em>é</em> aberto de "p<strong>é</strong>"</td><td class="lat">tĕ´-nĕt, mĕr´-cēs</td></tr>
+  <tr><td><b>ī</b></td><td>como o <em>i</em> de "v<strong>i</strong>da", prolongado</td><td class="lat">sĕr´-tī, prā´-tī</td></tr>
+  <tr><td><b>ĭ</b></td><td>como o <em>i</em> de "f<strong>i</strong>lho", breve</td><td class="lat">sĭ´-tĭs, bĭ´-bī</td></tr>
+  <tr><td><b>ō</b></td><td>como o <em>ô</em> fechado de "av<strong>ô</strong>"</td><td class="lat">Rō´-mă, ō´-rĭs</td></tr>
+  <tr><td><b>ŏ</b></td><td>como o <em>ó</em> aberto de "p<strong>ó</strong>"</td><td class="lat">mŏ´-dŏ, bŏ´-nōs</td></tr>
+  <tr><td><b>ū</b></td><td>como o <em>u</em> de "<strong>u</strong>va", prolongado</td><td class="lat">ū´-mŏr, tū´-bĕr</td></tr>
+  <tr><td><b>ŭ</b></td><td>como o <em>u</em> de "per<strong>u</strong>", breve</td><td class="lat">ŭt, tū´-tŭs</td></tr>
+</table>
+
+<p class="obs"><strong>Observação.</strong> Há diferença nítida de som entre a vogal longa e a
+breve (salvo no caso do <em>a</em>): não é apenas questão de <em>duração</em>, mas também de
+<em>timbre</em> — daí, em português, a oposição entre as vogais fechadas (ê, ô) e abertas
+(é, ó).</p>
+
+<p><span class="sec">6.</span> Nos <strong>ditongos</strong> (sons de duas vogais), ambas as
+vogais são ouvidas numa única sílaba.</p>
+
+<table>
+  <tr><th>Ditongo</th><th>Som (equivalente em português)</th><th>Exemplos latinos</th></tr>
+  <tr><td><b>ae</b></td><td>como "ai" em "p<strong>ai</strong>"</td><td class="lat">tae´-dae</td></tr>
+  <tr><td><b>au</b></td><td>como "au" em "P<strong>au</strong>lo"</td><td class="lat">gau´-dĕt</td></tr>
+  <tr><td><b>ei</b></td><td>como "ei" em "r<strong>ei</strong>"</td><td class="lat">dein´-dĕ</td></tr>
+  <tr><td><b>eu</b></td><td>como "eu" em "c<strong>éu</strong>" (e breve + u, numa sílaba)</td><td class="lat">seu</td></tr>
+  <tr><td><b>oe</b></td><td>como "ói" em "her<strong>ói</strong>"</td><td class="lat">foe´-dŭs</td></tr>
+  <tr><td><b>ui</b></td><td>como "ui" em "f<strong>ui</strong>" (u + i, numa sílaba)</td><td class="lat">cui, huic</td></tr>
+</table>
+
+<p class="obs"><strong>Observação.</strong> Dê a cada vogal e ditongo o seu som próprio, sem
+atropelá-los nas sílabas átonas.</p>
+
+<p><span class="sec">7.</span> As <strong>consoantes</strong> pronunciam-se como em português,
+exceto:</p>
+
+<table>
+  <tr><th>Consoante</th><th>Som (equivalente em português)</th><th>Exemplos latinos</th></tr>
+  <tr><td><b>c</b></td><td>sempre com som de /k/, como em "<strong>c</strong>asa"; nunca como em "<strong>c</strong>ebola"</td><td class="lat">că´-dō, cĭ´-bŭs, cē´-nă</td></tr>
+  <tr><td><b>g</b></td><td>sempre /g/, como em "<strong>g</strong>ato"; nunca como em "<strong>g</strong>elo"</td><td class="lat">gĕ´-mō, gĭg´-nō</td></tr>
+  <tr><td><b>i consoante</b></td><td>como o <em>i</em> de "<strong>i</strong>ate" (som de /j/, como o "i" de "ma<strong>i</strong>o")</td><td class="lat">iăm, iŏ´-cŭs</td></tr>
+  <tr><td><b>n</b> antes de <em>c, qu, g</em></td><td>nasal velar /ŋ/, como em "ta<strong>n</strong>go", "ba<strong>n</strong>co"</td><td class="lat">ăn´-cŏ-ră (âng-co-ra)</td></tr>
+  <tr><td><b>qu, gu</b> (e às vezes <b>su</b>) antes de vogal</td><td>soam /kw/, /gw/, /sw/, como em "<strong>qu</strong>ase", "á<strong>gu</strong>a", "<strong>su</strong>ave"; aqui o <em>u</em> é semivogal, não conta como vogal</td><td class="lat">ĭn´-quĭt, quī, lĭn´-guă, săn´-guĭs, suā´-dĕ-ō</td></tr>
+  <tr><td><b>s</b></td><td>sempre surdo /s/, como em "<strong>s</strong>apo"; nunca sonoro /z/, como em "ca<strong>s</strong>a"</td><td class="lat">rŏ´-să, ĭs</td></tr>
+  <tr><td><b>t</b></td><td>sempre /t/, como em "<strong>t</strong>omate"; nunca palatalizado em "tch" (cuidado: <span class="lat">ratiō</span> = "rá-ti-o", não "rá-tchi-o")</td><td class="lat">ră´-tĭ-ō, nā´-tĭ-ō</td></tr>
+  <tr><td><b>v</b></td><td>como o <em>u</em> semivogal /w/ — o "u" de "<strong>qu</strong>ase"; <em>nunca</em> como o <em>v</em> de "vinho" (<span class="lat">vīnum</span> ≈ "uí-num")</td><td class="lat">vī´-nŭm, vĭr</td></tr>
+  <tr><td><b>x</b></td><td>vale por duas consoantes (cs/gs): som de /ks/, como em "tá<strong>x</strong>i", "fi<strong>x</strong>o"</td><td class="lat">ĕx´-trā, ĕx-āc´-tŭs</td></tr>
+  <tr><td><b>bs, bt</b></td><td>soam "ps" e "pt" (<span class="lat">urbs</span> ≈ "urps")</td><td class="lat">ŭrbs, ŏb-tĭ´-nĕ-ō</td></tr>
+  <tr><td><b>ch, ph, th</b></td><td>soam /k/, /p/, /t/ (<span class="lat">pulcher</span> ≈ "púl-ker"; <span class="lat">theātrum</span> com /t/)</td><td class="lat">pŭl´-chĕr, Phoe´-bē, thĕ-ā´-trŭm</td></tr>
+</table>
+
+<div class="nota">
+  <em>a.</em> Nos grupos de consoantes, dê a cada uma o seu som distinto. As consoantes
+  <strong>dobradas</strong> devem ser pronunciadas com uma breve pausa entre os dois sons —
+  algo que o português não tem por natureza. Pronuncie como se houvesse uma divisão:
+  <span class="lat">mit-tō</span>, <span class="lat">Ap-pius</span>,
+  <span class="lat">bel-lum</span>.
+</div>
+
+<h4 class="sub" id="silabas">Sílabas</h4>
+
+<p><span class="sec">8.</span> Uma palavra latina tem tantas sílabas quantas forem suas vogais
+e ditongos. Assim, <span class="lat">aes-tā´-tĕ</span> tem três sílabas;
+<span class="lat">au-dĭ-ĕn´-dŭs</span>, quatro.</p>
+
+<p class="obs"><em>a.</em> Duas vogais com uma consoante entre elas nunca formam uma só sílaba.
+Cada vogal pertence à sua própria sílaba.</p>
+
+<p><span class="sec">9.</span> As palavras dividem-se em sílabas assim:</p>
+
+<p><strong>1.</strong> Uma única consoante entre duas vogais vai com a segunda. Assim:
+<span class="lat">ă-mā´-bĭ-lĭs, mĕ-mŏ´-rĭ-ă, ĭn-tĕ´-rĕ-ā, ă´-bĕst, pĕ-rē´-gĭt</span>.</p>
+
+<p><strong>2.</strong> Grupos de duas ou mais consoantes:</p>
+<p class="obs"><em>a.</em> Uma consoante seguida de <em>l</em> ou <em>r</em> vai com o <em>l</em>
+ou o <em>r</em>. Assim: <span class="lat">pū´-blĭ-cŭs, ă´-grī</span>.<br />
+<strong>Exceção:</strong> compostos com preposição, bem como <em>ll</em> e <em>rr</em>, seguem
+a regra <em>b</em>. Assim: <span class="lat">ăb´-lŭ-ō, ăb-rŭm´-pō, ĭl´-lĕ, fĕr´-rŭm</span>.</p>
+<p class="obs"><em>b.</em> Em todos os outros grupos de consoantes, a primeira consoante vai
+com a vogal anterior. Assim: <span class="lat">măg´-nŭs, ĕ-gĕs´-tās, vĭc-tō´-rĭ-ă, hŏs´-pĕs,
+ăn´-nŭs, sŭ-bāc´-tŭs</span>. (O grupo <em>nct</em> divide-se <em>nc-t</em>:
+<span class="lat">fūnc-tŭs, sānc-tŭs</span>.)</p>
+
+<p><strong>3.</strong> A última sílaba de uma palavra chama-se <em>última</em>; a penúltima,
+<em>penúltima</em>; a anterior à penúltima, <em>antepenúltima</em>.</p>
+
+<p><span class="sec">10.</span> <strong>Exercício.</strong> Divida em sílabas as palavras do
+trecho seguinte e pronuncie-as, colocando o acento como indicado:</p>
+
+<p class="lat">Vā́dĕ ăd fŏrmī́căm, Ō pĭ́gĕr, ĕt cōnsī́dĕrā vĭ́ās ĕ́iŭs ĕt dĭ́scĕ săpĭĕ́ntĭăm: quae
+cŭm nōn hắbĕăt dŭ́cĕm nĕc praecĕptṓrĕm nĕc prī́ncĭpĕm, pắrăt ĭn aestā́tĕ cĭ́bŭm sĭ́bĭ ĕt
+cŏ́ngrĕgăt ĭn mĕ́ssĕ quŏd cŏ́mĕdăt.</p>
+
+<p class="glossa">[Vai ter com a formiga, ó preguiçoso; observa os seus caminhos e sê sábio:
+ela, que não tem chefe, nem inspetor, nem governante, prepara no verão o seu alimento e
+ajunta na colheita a sua comida. — Provérbios 6,6–8]</p>
+
+<h4 class="sub" id="quantidade">Quantidade</h4>
+
+<p><span class="sec">11.</span> A <strong>quantidade</strong> de uma vogal ou de uma sílaba é o
+tempo que se leva para pronunciá-la. A pronúncia e o acento corretos dependem da observância
+adequada da quantidade.</p>
+
+<p><span class="sec">12.</span> <strong>Quantidade das vogais.</strong> As vogais são longas
+(¯) ou breves (˘). Neste livro, as vogais longas vêm marcadas; as não marcadas devem ser
+consideradas breves.</p>
+<p><strong>1.</strong> Uma vogal é breve diante de outra vogal ou de <em>h</em>:
+<span class="lat">pŏ-ē´-ta, tră´-hō</span>.<br />
+<strong>2.</strong> Uma vogal é breve diante de <em>nt</em> e <em>nd</em>, diante de <em>m</em>
+ou <em>t</em> finais e, exceto nos monossílabos, diante de <em>l</em> ou <em>r</em> finais:
+<span class="lat">a´-mănt, a-măn´-dus, a-mā´-băm, a-mā´-băt, a´-ni-măl, a´-mŏr</span>.<br />
+<strong>3.</strong> Uma vogal é longa diante de <em>nf, ns, nx</em> e <em>nct</em>:
+<span class="lat">īn´-fe-rō, re´-gēns, sān´-xī, sānc´-tus</span>.<br />
+<strong>4.</strong> Os ditongos são sempre longos e não vêm marcados.</p>
+
+<p><span class="sec">13.</span> <strong>Quantidade das sílabas.</strong> As sílabas também são
+longas ou breves, e sua quantidade deve ser cuidadosamente distinguida da das vogais.</p>
+<p><strong>1. Uma sílaba é breve</strong> se termina em vogal breve:
+<span class="lat">ă´-mō, pĭ´-grĭ</span>.
+<span class="obs">(Em sílabas finais, a vogal breve pode ser seguida de consoante final:
+<span class="lat">mĕ-mŏ´-rĭ-ăm</span> tem quatro sílabas breves.)</span></p>
+<p><strong>2. Uma sílaba é longa</strong> (<em>a</em>) se contém vogal longa ou ditongo
+(<span class="lat">cū´-rō, poe´-nae, aes-tā´-te</span>); (<em>b</em>) se termina em consoante
+seguida de outra consoante (<span class="lat">cor´-pus, mag´-nus</span>).</p>
+<p class="obs"><strong>Observação.</strong> A vogal de uma sílaba longa pode ser longa ou
+breve, e deve ser pronunciada de acordo. Em <span class="lat">ter´-ra</span>,
+<span class="lat">in´-ter</span>, a primeira sílaba é longa, mas a vogal é breve. Dê às
+sílabas longas cerca do dobro do tempo das breves: leva-se quase o mesmo tempo para dizer
+<span class="lat">cŭr´-rō</span> e <span class="lat">cū´-rō</span>. (Na quantidade, o
+<em>h</em> não conta como consoante.)</p>
+
+<h4 class="sub" id="acento">Acento</h4>
+
+<p><span class="sec">14.</span> As palavras de duas sílabas acentuam-se na primeira:
+<span class="lat">mēn´-sa, Cae´-sar</span>.</p>
+
+<p><span class="sec">15.</span> As palavras de mais de duas sílabas acentuam-se na penúltima,
+se esta for longa; se a penúltima for breve, acentua-se a antepenúltima. Assim:
+<span class="lat">mo-nē´-mus, re´-gi-tur, a-gri´-co-la, a-man´-dus</span>.</p>
+<p class="obs"><strong>Observação.</strong> A posição do acento é determinada pela duração da
+<em>sílaba</em>, não pela duração da vogal contida nela.</p>
+
+<p><span class="sec">16.</span> Certas palavrinhas chamadas <em>enclíticas</em> — que não têm
+existência própria — juntam-se à palavra anterior e pronunciam-se com ela. As mais comuns são
+<span class="lat">-que</span> (<em>e</em>), <span class="lat">-ve</span> (<em>ou</em>) e
+<span class="lat">-ne</span> (sinal de pergunta). A sílaba anterior à enclítica recebe o
+acento, qualquer que seja sua quantidade: <span class="lat">populus´que, dea´que, rēgna´ve,
+audit´ne</span>.
+<span class="obs">(Enclítica significa "que se apoia para trás": são palavrinhas que não se
+sustentam sozinhas e por isso se apoiam na palavra anterior.)</span></p>
+
+<h4 class="sub" id="ler">Como ler latim</h4>
+
+<p><span class="sec">17.</span> Ler bem o latim não é tão difícil, se você começar do jeito
+certo. Os bons hábitos de leitura devem ser formados agora. Observe com cuidado as
+quantidades, sobretudo a da penúltima, para garantir que o acento caia na sílaba correta. Dê a
+cada vogal o seu som próprio e a cada sílaba a sua duração própria. Lembre-se, então, de que
+devemos ler latim como lemos português: em grupos de palavras, e não palavra por palavra.
+Agrupe as palavras estreitamente ligadas no sentido. Nenhum bom leitor faz pausa ao fim de
+cada palavra.</p>
+
+<p><span class="sec">18.</span> Leia as estrofes do poema seguinte, de Longfellow, uma de cada
+vez — primeiro o sentido em português, depois a versão latina. As sílabas entre parênteses
+devem ser elididas para dar fluidez à métrica.</p>
+
+<h5 class="tema">Excelsior! [Mais alto!]</h5>
+
+<table class="verso">
+  <tr>
+    <td>
+      As sombras da noite caíam depressa<br />
+      enquanto, por uma aldeia alpina, passava<br />
+      um jovem que levava, em meio à neve e ao gelo,<br />
+      uma bandeira com o estranho lema:<br />
+      <em>Excelsior!</em>
+    </td>
+    <td class="lat">
+      Cadēbant noctis umbrae, dum<br />
+      Ibat per vīcum Alpicum<br />
+      Gelū nivequ(e) adolēscēns,<br />
+      Vēxillum cum signō ferēns,<br />
+      <em>Excelsior!</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Sua fronte estava triste; sob ela, o olhar<br />
+      fulgurava como espada fora da bainha,<br />
+      e como um clarim de prata ressoavam<br />
+      os acentos daquela língua desconhecida:<br />
+      <em>Excelsior!</em>
+    </td>
+    <td class="lat">
+      Frōns trīstis, micat oculus<br />
+      Velut ē vāgīnā gladius;<br />
+      Sonantque similēs tubae<br />
+      Accentūs lingu(ae) incognitae,<br />
+      <em>Excelsior!</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Nos lares felizes ele via a luz<br />
+      do fogo doméstico brilhar quente e clara;<br />
+      acima, reluziam as geleiras espectrais,<br />
+      e de seus lábios escapou um gemido:<br />
+      <em>Excelsior!</em>
+    </td>
+    <td class="lat">
+      In domibus videt clārās<br />
+      Focōrum lūcēs calidās;<br />
+      Relucet glaciēs ācris,<br />
+      Et rumpit gemitūs labrīs,<br />
+      <em>Excelsior!</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      "Não tentes a passagem!", disse o velho;<br />
+      "negra paira a tempestade lá no alto,<br />
+      a torrente que ruge é funda e larga!"<br />
+      E alta aquela voz de clarim respondeu:<br />
+      <em>Excelsior!</em>
+    </td>
+    <td class="lat">
+      Dīcit senex, "Nē trānseās!<br />
+      Suprā nigrēscit tempestās;<br />
+      Lātus et altus est torrēns."<br />
+      Clāra vēnit vōx respondēns,<br />
+      <em>Excelsior!</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Ao raiar do dia, enquanto rumo ao céu<br />
+      os piedosos monges de São Bernardo<br />
+      proferiam a oração tantas vezes repetida,<br />
+      uma voz clamou pelo ar sobressaltado:<br />
+      <em>Excelsior!</em>
+    </td>
+    <td class="lat">
+      Iam lūcēscēbat, et frātrēs<br />
+      Sānctī Bernardī vigilēs<br />
+      Ōrābant precēs solitās,<br />
+      Cum vōx clāmāvit per aurās,<br />
+      <em>Excelsior!</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Um viajante, pelo cão fiel,<br />
+      foi encontrado meio enterrado na neve,<br />
+      ainda apertando em sua mão de gelo<br />
+      aquela bandeira com o estranho lema:<br />
+      <em>Excelsior!</em>
+    </td>
+    <td class="lat">
+      Sēmi-sepultus viātor<br />
+      Can(e) ā fīdō reperītur,<br />
+      Comprēndēns pugnō gelidō<br />
+      Illud vēxillum cum signō,<br />
+      <em>Excelsior!</em>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Ali, no crepúsculo frio e cinzento,<br />
+      sem vida, mas belo, ele jazia;<br />
+      e do céu, sereno e distante,<br />
+      caiu uma voz, como uma estrela cadente:<br />
+      <em>Excelsior!</em>
+    </td>
+    <td class="lat">
+      Iacet corpus exanimum<br />
+      Sed lūce frīgidā pulchrum;<br />
+      Et caelō procul exiēns<br />
+      Cadit vōx, ut Stella cadēns,<br />
+      <em>Excelsior!</em>
+    </td>
+  </tr>
+</table>
+<p class="obs">Versão latina de C. W. Goodchild, em <em>Praeco Latinus</em>, outubro de 1898.
+Tradução do inglês de Longfellow para o português feita aqui apenas para fins de estudo.</p>
+
+<hr />
+
+<!-- ============================ PARTE II ============================ -->
+<h2 class="parte" id="parte2">Parte II — Palavras e formas</h2>
+
+<!-- ===== LIÇÃO I ===== -->
+<h3 class="licao" id="licao1">Lição I — Primeiros princípios</h3>
+
+<h5 class="tema"><span class="sec">19.</span> Sujeito e predicado</h5>
+
+<p><strong>1.</strong> O latim, assim como o português, exprime pensamentos por meio de
+<em>frases</em>. Uma frase é uma combinação de palavras que exprime um pensamento e, em sua
+forma mais simples, é a afirmação de um único fato. Assim:</p>
+
+<table>
+  <tr>
+    <td><span class="lat">Galba est agricola</span><span class="glossa">Galba é um agricultor</span></td>
+    <td><span class="lat">Nauta pugnat</span><span class="glossa">O marinheiro luta</span></td>
+  </tr>
+</table>
+
+<p>Em cada uma dessas frases há duas partes:</p>
+
+<table>
+  <tr>
+    <td class="lado">Sujeito</td>
+    <td><span class="lat">Galba</span> <span class="glossa">Galba</span><br />
+        <span class="lat">Nauta</span> <span class="glossa">O marinheiro</span></td>
+    <td class="lado">Predicado</td>
+    <td><span class="lat">est agricola</span> <span class="glossa">é um agricultor</span><br />
+        <span class="lat">pugnat</span> <span class="glossa">luta</span></td>
+  </tr>
+</table>
+
+<p><strong>2.</strong> O <strong>sujeito</strong> é a pessoa, lugar ou coisa sobre a qual algo
+é dito, sendo, portanto, um <em>substantivo</em> ou alguma palavra que cumpra a mesma função.</p>
+<div class="nota"><em>a.</em> Os <strong>pronomes</strong>, como o próprio nome indica
+(<em>pro</em>, "em lugar de", e <em>nome</em>), frequentemente tomam o lugar dos substantivos,
+geralmente para evitar a repetição. Por exemplo: <em>Galba é agricultor; <strong>ele</strong>
+é um sujeito robusto</em>.</div>
+
+<p><strong>3.</strong> O <strong>predicado</strong> é aquilo que se diz sobre o sujeito e
+consiste num verbo, com ou sem modificadores.</p>
+<div class="nota"><em>a.</em> Um <strong>verbo</strong> é uma palavra que afirma algo
+(geralmente um ato) a respeito de uma pessoa, lugar ou coisa.</div>
+
+<h5 class="tema"><span class="sec">20.</span> O objeto</h5>
+<p>Nas duas frases <em>O menino acertou a bola</em> e <em>A bola acertou o menino</em>,
+empregam-se as mesmas palavras, mas o sentido é diferente e depende da ordem das palavras. O
+<strong>agente</strong> do ato — aquilo sobre o qual algo é dito — é, como vimos, o
+<strong>sujeito</strong>. <strong>Aquilo a que algo é feito</strong> é o <strong>objeto
+direto</strong> do verbo. A frase <em>O menino acertou a bola</em> analisa-se assim:</p>
+<table>
+  <tr><th>Sujeito</th><th>Predicado</th></tr>
+  <tr><td style="text-align:center"><em>O menino</em></td>
+      <td style="text-align:center"><em>acertou a bola</em><br /><small>(verbo) (objeto direto)</small></td></tr>
+</table>
+<div class="nota"><em>a.</em> Um verbo cuja ação passa diretamente ao objeto chama-se
+<strong>verbo transitivo</strong>. Um verbo que não admite objeto direto chama-se
+<strong>intransitivo</strong>, como em <em>eu ando, ele vem</em>.</div>
+
+<h5 class="tema"><span class="sec">21.</span> A cópula</h5>
+<p>O verbo <em>ser/estar</em> em suas diferentes formas — <em>são, é, era</em> etc. — não nos
+diz nada sobre o sujeito; tampouco rege um objeto. Ele simplesmente liga o sujeito à palavra
+ou palavras do predicado que possuem significado próprio. Por isso é chamado de
+<strong>cópula</strong>, isto é, <em>o que une</em> ou <em>o elo</em>.</p>
+
+<h5 class="tema"><span class="sec">22.</span> Exercício</h5>
+<p>Nas frases seguintes, pronuncie o latim e identifique os <em>substantivos, verbos,
+sujeitos, objetos, predicados e cópulas</em>:</p>
+<table>
+  <tr><td class="num">1.</td><td><span class="lat">America est patria mea</span><span class="glossa">A América é minha pátria</span></td></tr>
+  <tr><td class="num">2.</td><td><span class="lat">Agricola fīliam amat</span><span class="glossa">O agricultor ama (sua) filha</span></td></tr>
+  <tr><td class="num">3.</td><td><span class="lat">Fīlia est Iūlia</span><span class="glossa">(Sua) filha é Júlia</span></td></tr>
+  <tr><td class="num">4.</td><td><span class="lat">Iūlia et agricola sunt in īnsulā</span><span class="glossa">Júlia e o agricultor estão na ilha</span></td></tr>
+  <tr><td class="num">5.</td><td><span class="lat">Iūlia aquam portat</span><span class="glossa">Júlia carrega água</span></td></tr>
+  <tr><td class="num">6.</td><td><span class="lat">Rosam in comīs habet</span><span class="glossa">(Ela) tem uma rosa nos cabelos</span></td></tr>
+  <tr><td class="num">7.</td><td><span class="lat">Iūlia est puella pulchra</span><span class="glossa">Júlia é uma menina bonita</span></td></tr>
+  <tr><td class="num">8.</td><td><span class="lat">Domina fīliam pulchram habet</span><span class="glossa">A senhora tem uma filha bela</span></td></tr>
+</table>
+<div class="nota"><em>a.</em> As frases acima mostram que o latim não exprime algumas palavras
+necessárias em português. Em primeiro lugar, <em>o latim não tem o artigo <strong>o</strong>
+nem <strong>um</strong></em>; assim, <span class="lat">agricola</span> pode significar
+<em>o agricultor</em>, <em>um agricultor</em> ou simplesmente <em>agricultor</em>. Além disso,
+os pronomes pessoais (<em>eu, tu, ele, ela</em> etc.) e os possessivos (<em>meu, teu, seu,
+sua</em> etc.) não são expressos quando o sentido da frase já está claro sem eles.</div>
+
+<!-- ===== LIÇÃO II ===== -->
+<h3 class="licao" id="licao2">Lição II — Primeiros princípios <em>(continuação)</em></h3>
+
+<h5 class="tema"><span class="sec">23.</span> Flexão</h5>
+<p>As palavras podem mudar de forma para indicar alguma mudança de sentido ou de uso. Em
+português, por exemplo: <em>é, são; era, eram; quem, de quem; fazendeiro, do fazendeiro;
+mulher, mulheres</em>. A isso se chama <strong>flexão</strong>. A flexão de um substantivo,
+adjetivo ou pronome chama-se <strong>declinação</strong>; a de um verbo,
+<strong>conjugação</strong>.</p>
+
+<h5 class="tema"><span class="sec">24.</span> Número</h5>
+<p>O latim, como o português, tem dois números: singular e plural. Em português, normalmente
+formamos o plural acrescentando <em>-s</em> ou <em>-es</em> ao singular. O latim, do mesmo
+modo, muda o singular para o plural alterando a <strong>terminação</strong> da palavra.
+Compare:</p>
+<table>
+  <tr>
+    <td><span class="lat">Naut-a pugnat</span><span class="glossa">O marinheiro luta</span></td>
+    <td><span class="lat">Naut-ae pugnant</span><span class="glossa">Os marinheiros lutam</span></td>
+  </tr>
+</table>
+
+<h5 class="tema"><span class="sec">25.</span> Regra</h5>
+<p class="nota"><em>Os substantivos terminados em <span class="lat">-a</span> no singular
+terminam em <span class="lat">-ae</span> no plural.</em></p>
+
+<h5 class="tema"><span class="sec">26.</span> Vocabulário</h5>
+<p>Aprenda os substantivos seguintes, de modo a saber dar o português pelo latim e o latim
+pelo português. Escreva o plural de cada um.</p>
+<ul class="vocab">
+  <li><span class="lat">agrícola</span>, <em>agricultor</em> <span class="deriv">(agrícola)</span></li>
+  <li><span class="lat">aqua</span>, <em>água</em> <span class="deriv">(aquário)</span></li>
+  <li><span class="lat">causa</span>, <em>causa, razão</em></li>
+  <li><span class="lat">dómina</span>, <em>senhora (dona da casa)</em> <span class="deriv">(dominar)</span></li>
+  <li><span class="lat">filia</span>, <em>filha</em> <span class="deriv">(filial)</span></li>
+  <li><span class="lat">fortūna</span>, <em>fortuna, sorte</em></li>
+  <li><span class="lat">fuga</span>, <em>fuga</em> <span class="deriv">(fugitivo)</span></li>
+  <li><span class="lat">iniūria</span>, <em>injustiça, dano</em> <span class="deriv">(injúria)</span></li>
+  <li><span class="lat">lūna</span>, <em>lua</em> <span class="deriv">(lunar)</span></li>
+  <li><span class="lat">nauta</span>, <em>marinheiro</em> <span class="deriv">(náutico)</span></li>
+  <li><span class="lat">puella</span>, <em>menina</em></li>
+  <li><span class="lat">silva</span>, <em>floresta</em> <span class="deriv">(silvestre)</span></li>
+  <li><span class="lat">terra</span>, <em>terra</em> <span class="deriv">(terraço)</span></li>
+</ul>
+<p class="obs">As palavras entre parênteses são vocábulos portugueses aparentados ao latim.
+Quando latim e português são praticamente idênticos (como <span class="lat">causa</span>,
+<em>causa</em>), não é preciso comparação.</p>
+
+<h5 class="tema"><span class="sec">27.</span> Pessoa e número do verbo</h5>
+<p>Compare novamente as frases:</p>
+<table>
+  <tr>
+    <td><span class="lat">Nauta pugna-t</span><span class="glossa">O marinheiro luta</span></td>
+    <td><span class="lat">Nautae pugna-nt</span><span class="glossa">Os marinheiros lutam</span></td>
+  </tr>
+</table>
+<p>Na primeira frase, o verbo <span class="lat">pugna-t</span> está na terceira pessoa do
+singular; na segunda, <span class="lat">pugna-nt</span> está na terceira pessoa do plural.</p>
+
+<h5 class="tema"><span class="sec">28.</span> Regra — Concordância do verbo</h5>
+<p class="nota"><em>Um verbo finito deve estar sempre na mesma pessoa e no mesmo número que o
+seu sujeito.</em></p>
+
+<h5 class="tema"><span class="sec">29.</span> Regra — Terminações pessoais</h5>
+<p class="nota"><em>Na conjugação do verbo latino, a terceira pessoa do singular da voz ativa
+termina em <span class="lat">-t</span>; a terceira pessoa do plural, em
+<span class="lat">-nt</span>. As terminações que indicam a pessoa e o número do verbo chamam-se
+<strong>terminações pessoais</strong>.</em></p>
+
+<h5 class="tema"><span class="sec">30.</span> Vocabulário de verbos</h5>
+<p>Aprenda os verbos seguintes e escreva o plural de cada um. Os pronomes pessoais
+<em>ele, ela</em> etc., necessários na conjugação portuguesa, não fazem falta no latim, porque
+as terminações pessoais ocupam o seu lugar. Naturalmente, se o sujeito do verbo está expresso,
+não traduzimos a terminação pessoal por um pronome: <span class="lat">nauta pugnat</span>
+traduz-se <em>o marinheiro luta</em>, e não <em>o marinheiro ele luta</em>.</p>
+<table>
+  <tr><td><span class="lat">ama-t</span></td><td><em>ele (ela)</em></td><td><em>ama, está amando</em> <span class="deriv">(amizade, amável)</span></td></tr>
+  <tr><td><span class="lat">labóra-t</span></td><td><em>ele (ela)</em></td><td><em>trabalha, está trabalhando</em> <span class="deriv">(laborar)</span></td></tr>
+  <tr><td><span class="lat">nūntia-t</span></td><td><em>ele (ela)</em></td><td><em>anuncia, está anunciando</em> <span class="deriv">(anunciar)</span></td></tr>
+  <tr><td><span class="lat">porta-t</span></td><td><em>ele (ela)</em></td><td><em>carrega, está carregando</em> <span class="deriv">(portar)</span></td></tr>
+  <tr><td><span class="lat">pugna-t</span></td><td><em>ele (ela)</em></td><td><em>luta, está lutando</em> <span class="deriv">(pugna, pugnaz)</span></td></tr>
+</table>
+<p class="obs">O <em>u</em> de <span class="lat">nūntiō</span> é longo por exceção (cf. §12.2).</p>
+
+<h5 class="tema"><span class="sec">31.</span> Exercícios</h5>
+<p><strong>I.</strong> 1. A filha ama, as filhas amam. 2. O marinheiro está carregando, os
+marinheiros carregam. 3. O agricultor trabalha, os agricultores trabalham. 4. A menina está
+anunciando, as meninas anunciam. 5. As senhoras estão carregando, a senhora carrega.</p>
+<p class="obs">Traduza para o latim usando o vocabulário aprendido. (No original, este
+exercício pede a tradução do inglês para o latim.)</p>
+<p><strong>II.</strong> Traduza para o português:</p>
+<p class="lat">1. Nauta pugnat, nautae pugnant. 2. Puella amat, puellae amant. 3. Agricola
+portat, agricolae portant. 4. Fīlia labōrat, fīliae labōrant. 5. Nauta nūntiat, nautae
+nūntiant. 6. Dominae amant, domina amat.</p>
+
+<footer>
+  Texto original: Benjamin L. D'Ooge, <em>Latin for Beginners</em> (Ginn and Company, 1911) —
+  domínio público, Project Gutenberg eBook&nbsp;#18251.<br />
+  Tradução e adaptação para o português brasileiro · Introdução + Parte I + Lições I–II de 78
+  lições.
+</footer>
+
+</body>
+</html>
