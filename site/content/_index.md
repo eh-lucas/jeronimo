@@ -1,5 +1,6 @@
 ---
 title: "Latim para Iniciantes"
+layout: hextra-home
 toc: false
 ---
 
