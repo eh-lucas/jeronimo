@@ -9,8 +9,8 @@ toc: false
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
-  Tradução para o português brasileiro de *Latin for Beginners*,&nbsp;
-  de Benjamin L. D'Ooge (1911) — domínio público.
+  Tradução e adaptação para o português de *Latin for Beginners*,&nbsp;
+  de Benjamin L. D'Ooge (1911).
 {{< /hextra/hero-subtitle >}}
 
 <br />
@@ -19,17 +19,8 @@ toc: false
 
 <br /><br />
 
-{{< hextra/feature-grid >}}
-  {{< hextra/feature-card
-    title="Do alfabeto ao texto"
-    subtitle="Pronúncia, sílabas, quantidade, acento e, em seguida, as lições de gramática, passo a passo."
-  >}}
-  {{< hextra/feature-card
-    title="Latim preservado, explicação adaptada"
-    subtitle="As palavras latinas (com macrons) ficam intactas; as comparações originais com o inglês foram adaptadas ao português."
-  >}}
-  {{< hextra/feature-card
-    title="Busca e leitura confortável"
-    subtitle="Navegação lateral por lição, busca em todo o manual, modo claro/escuro e leitura responsiva."
-  >}}
-{{< /hextra/feature-grid >}}
+{{< cards >}}
+  {{< card link="docs/introducao" title="Ao estudante" subtitle="A título de introdução — o que é o latim e por que estudá-lo." >}}
+  {{< card link="docs/parte-1-pronuncia" title="Parte I — Pronúncia" subtitle="Alfabeto, sons, sílabas, quantidade, acento e como ler latim." >}}
+  {{< card link="docs/parte-2-palavras-e-formas" title="Parte II — Palavras e formas" subtitle="As lições de gramática, a partir dos primeiros princípios." >}}
+{{< /cards >}}
