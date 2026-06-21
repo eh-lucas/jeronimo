@@ -1,0 +1,31 @@
+<script>
+(function () {
+  var BASE = 17, MIN = 13, MAX = 23, KEY = 'jeronimo-font-size';
+  var size = parseInt(localStorage.getItem(KEY)) || BASE;
+
+  /* Aplica imediatamente (antes do primeiro paint) para evitar salto visual */
+  document.documentElement.style.setProperty('--content-font-size', size + 'px');
+
+  function apply(sz) {
+    sz = Math.max(MIN, Math.min(MAX, sz));
+    size = sz;
+    document.documentElement.style.setProperty('--content-font-size', sz + 'px');
+    localStorage.setItem(KEY, sz);
+    var lbl = document.getElementById('font-ctrl-lbl');
+    if (lbl) lbl.textContent = sz + 'px';
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var wrap = document.createElement('div');
+    wrap.id = 'font-ctrl';
+    wrap.setAttribute('aria-label', 'Tamanho da fonte');
+    wrap.innerHTML =
+      '<button id="font-down" title="Diminuir fonte" style="font-size:0.85rem">A−</button>' +
+      '<span id="font-ctrl-lbl">' + size + 'px</span>' +
+      '<button id="font-up" title="Aumentar fonte" style="font-size:1rem">A+</button>';
+    document.body.appendChild(wrap);
+    document.getElementById('font-up').addEventListener('click', function () { apply(size + 1); });
+    document.getElementById('font-down').addEventListener('click', function () { apply(size - 1); });
+  });
+})();
+</script>

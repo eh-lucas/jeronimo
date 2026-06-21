@@ -72,3 +72,61 @@
   .poema td { padding-right: 0; }
   .poema .la { margin-bottom: 1rem; }
 }
+
+/* ===== Tamanho de fonte configurável ===== */
+:root {
+  --content-font-size: 17px; /* +1 px sobre o padrão do tema (16 px) */
+}
+
+/* Parágrafos, listas, citações e tabelas usam o tamanho configurável.
+   Títulos (h1–h6) ficam intocados. */
+.prose p,
+.prose li,
+.prose blockquote,
+.prose td,
+.prose th {
+  font-size: var(--content-font-size);
+}
+
+/* Controle flutuante A− / A+ */
+#font-ctrl {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  z-index: 50;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.dark #font-ctrl {
+  background: #1f2937;
+  border-color: #374151;
+  color: #f9fafb;
+}
+#font-ctrl button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.15rem 0.3rem;
+  border-radius: 0.25rem;
+  color: inherit;
+  line-height: 1;
+}
+#font-ctrl button:hover {
+  background: #f3f4f6;
+}
+.dark #font-ctrl button:hover {
+  background: #374151;
+}
+#font-ctrl-lbl {
+  font-size: 0.7rem;
+  color: #9ca3af;
+  padding: 0 0.15rem;
+  pointer-events: none;
+  user-select: none;
+}
