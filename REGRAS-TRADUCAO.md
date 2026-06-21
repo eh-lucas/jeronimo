@@ -90,7 +90,30 @@ termos). Acrescentar novos termos a esta tabela conforme aparecerem.
 | enclitic               | enclítica                      |
 | stem / ending          | radical / terminação           |
 
-## 7. Ortografia e estilo
+## 7. Alertas de revisão (⚠️)
+
+Sempre que surgir **dúvida** sobre como traduzir ou adaptar um trecho — por menor
+que seja —, inserir um alerta imediatamente abaixo do trecho problemático no arquivo
+`traducao/licao-XX.md`, usando o formato:
+
+```
+> ⚠️ **[revisar — <tipo>]** Descrição objetiva do problema ou dúvida.
+```
+
+Tipos comuns de `<tipo>`:
+- `comparação com inglês` — adaptação para o português é ambígua
+- `referência cultural` — exemplo americano sem equivalente claro no Brasil
+- `OCR / forma latina` — forma suspeita que pode ser erro do Gutenberg
+- `terminologia` — termo gramatical sem equivalente direto confirmado
+
+**Regras obrigatórias:**
+- Os alertas existem **apenas** nos arquivos `traducao/` — nunca devem ir para o Hugo.
+- O conteúdo definitivo só vai para o Hugo após revisão e resolução de todos os ⚠️.
+- Não resolver o alerta sozinho quando o julgamento for subjetivo — deixar para revisão humana.
+
+---
+
+## 8. Ortografia e estilo
 
 - **"breve" / "breves" sem acento** (vogal breve, sílaba breve). Nunca "bréve/bréves".
 - Registro: didático, claro e atual — é um livro para iniciantes; evitar arcaísmos.

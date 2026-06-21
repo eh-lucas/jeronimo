@@ -66,16 +66,16 @@ une* ou *o elo*.
 Nas frases seguintes, pronuncie o latim e identifique os *substantivos, verbos, sujeitos,
 objetos, predicados e cópulas*:
 
-| Nº | Frase |
-|:---:|---|
-| 1. | {{< lat "America est patria mea" "A América é minha pátria" >}} |
-| 2. | {{< lat "Agricola fīliam amat" "O agricultor ama (sua) filha" >}} |
-| 3. | {{< lat "Fīlia est Iūlia" "(Sua) filha é Júlia" >}} |
-| 4. | {{< lat "Iūlia et agricola sunt in īnsulā" "Júlia e o agricultor estão na ilha" >}} |
-| 5. | {{< lat "Iūlia aquam portat" "Júlia carrega água" >}} |
-| 6. | {{< lat "Rosam in comīs habet" "(Ela) tem uma rosa nos cabelos" >}} |
-| 7. | {{< lat "Iūlia est puella pulchra" "Júlia é uma menina bonita" >}} |
-| 8. | {{< lat "Domina fīliam pulchram habet" "A senhora tem uma filha bela" >}} |
+| N.° | Latim | Português |
+|:---:|---|---|
+| 1 | {{< lat "America est patria mea" >}} | *A América é minha pátria* |
+| 2 | {{< lat "Agricola fīliam amat" >}} | *O agricultor ama (sua) filha* |
+| 3 | {{< lat "Fīlia est Iūlia" >}} | *(Sua) filha é Júlia* |
+| 4 | {{< lat "Iūlia et agricola sunt in īnsulā" >}} | *Júlia e o agricultor estão na ilha* |
+| 5 | {{< lat "Iūlia aquam portat" >}} | *Júlia carrega água* |
+| 6 | {{< lat "Rosam in comīs habet" >}} | *(Ela) tem uma rosa nos cabelos* |
+| 7 | {{< lat "Iūlia est puella pulchra" >}} | *Júlia é uma menina bonita* |
+| 8 | {{< lat "Domina fīliam pulchram habet" >}} | *A senhora tem uma filha bela* |
 
 {{< callout type="info" >}}
 *a.* As frases acima mostram que o latim não exprime algumas palavras necessárias em português.

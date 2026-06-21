@@ -51,24 +51,16 @@ O verbo *ser* em suas diferentes formas — *és*, *é*, *era*, *foi*, etc. — 
 
 Pronuncie as orações latinas a seguir e identifique os *substantivos, verbos, sujeitos, objetos, predicados* e *cópulas*:
 
-| | |
-|---|---|
-| 1. | **America est patria mea** |
-| | *América é minha pátria* |
-| 2. | **Agricola fīliam amat** |
-| | *O lavrador ama (sua) filha* |
-| 3. | **Fīlia est Iūlia** |
-| | *(Sua) filha é Júlia* |
-| 4. | **Iūlia et agricola sunt in īnsulā** |
-| | *Júlia e o lavrador estão na ilha* |
-| 5. | **Iūlia aquam portat** |
-| | *Júlia carrega água* |
-| 6. | **Rosam in comīs habet** |
-| | *Tem uma rosa no (seu) cabelo* |
-| 7. | **Iūlia est puella pulchra** |
-| | *Júlia é uma menina bonita* |
-| 8. | **Domina fīliam pulchram habet** |
-| | *A senhora tem uma filha bonita* |
+| N.° | Latim | Português |
+|:---:|---|---|
+| 1 | **America est patria mea** | *América é minha pátria* |
+| 2 | **Agricola fīliam amat** | *O lavrador ama (sua) filha* |
+| 3 | **Fīlia est Iūlia** | *(Sua) filha é Júlia* |
+| 4 | **Iūlia et agricola sunt in īnsulā** | *Júlia e o lavrador estão na ilha* |
+| 5 | **Iūlia aquam portat** | *Júlia carrega água* |
+| 6 | **Rosam in comīs habet** | *Tem uma rosa no (seu) cabelo* |
+| 7 | **Iūlia est puella pulchra** | *Júlia é uma menina bonita* |
+| 8 | **Domina fīliam pulchram habet** | *A senhora tem uma filha bonita* |
 
 > *a.* As orações acima mostram que o latim não expressa algumas palavras que são necessárias no português. Em primeiro lugar, *o latim não tem artigo — nem definido nem indefinido*: **agricola**, por exemplo, pode significar *o lavrador*, *um lavrador* ou simplesmente *lavrador*.
 
