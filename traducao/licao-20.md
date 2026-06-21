@@ -27,6 +27,8 @@ A flexão é a seguinte:
 |-----------|--------------|----------------|---------------|
 | 1.ª pess. | amā´**bam**, *eu amava* | monē´**bam**, *eu aconselhava* | **-m** |
 | 2.ª pess. | amā´**bās**, *tu avavas / você amava* | monē´**bās**, *tu aconselhavavas* | **-s** |
+
+> ⚠️ **[revisar — OCR / forma latina]** As traduções "*tu avavas*" (Conj. I) e "*tu aconselhavavas*" (Conj. II) apresentam sílabas duplicadas. As formas corretas seriam "*tu amavas / você amava*" e "*tu aconselhavas / você aconselhava*". Provável erro de digitação.
 | 3.ª pess. | amā´**bat**, *ele/ela amava* | monē´**bat**, *ele/ela aconselhava* | **-t** |
 
 **Plural**

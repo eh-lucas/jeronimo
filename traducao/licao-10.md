@@ -56,4 +56,6 @@ Estude antes o vocabulário especial, p. 285.
 
 > ¹ Ver nota 1, p. 33. Lembre-se de que **cūrat** é transitivo e rege um objeto direto.
 
+> ⚠️ **[revisar — referência cultural]** "Ver nota 1, p. 33" remete à paginação do livro original em inglês (D'Ooge, edição Gutenberg). Em uma edição PT-BR autônoma, essa referência de página não tem correspondência — verificar a qual nota o original remete e substituir pela referência correta nesta tradução (provavelmente um § específico).
+
 > ² Não é dativo. (Cf. § 43.)

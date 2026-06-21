@@ -73,6 +73,8 @@ Nessa frase, **parva** (*pequena*) e **bonam** (*boa*) não são substantivos, m
 
 > ² *Identifique os adjetivos no trecho a seguir:* "Quando eu era um menino pequeno, lembro que numa fria manhã de inverno fui abordado por um homem sorridente com um machado no ombro. 'Meu lindo garoto,' disse ele, 'seu pai tem uma pedra de amolar?' 'Sim, senhor,' respondi. 'Você é um rapaz excelente,' disse ele. 'Você me deixa amolar meu machado nela?'"
 
+> ⚠️ **[revisar — referência cultural]** Este trecho (o menino com o machado e a pedra de amolar) é atribuído a Benjamin Franklin e era referência familiar ao público americano de 1911. Pode ser pouco reconhecível para leitores brasileiros. Considerar substituir por exemplo com adjetivos em contexto neutro, ou adicionar nota explicando a origem.
+
 Você pode reconhecer, pela terminação, a qual substantivo pertence um adjetivo. A terminação de **parva** mostra que ele pertence a **puella**, e a terminação de **bonam**, que pertence a **deam**. Palavras que se relacionam assim dizem-se em *concordância*, e essa relação chama-se *concordância*. Observe que *o adjetivo concorda com seu substantivo em número e caso*.
 
 ## § 55 — Adjetivo Predicativo e Adjetivo Atributivo

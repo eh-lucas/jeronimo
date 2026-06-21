@@ -72,6 +72,8 @@ A maioria dos verbos forma seus modos e tempos seguindo um plano regular e são 
 
 > **Nota de rodapé.** Em português, assim como em latim, as formas do singular e do plural nunca são idênticas: *és* (sing.) difere de *sois* (pl.), *era* (sing.) difere de *éramos/éreis/eram* (pl.), e assim por diante. Isso contrasta com o inglês, onde *you are*, *you were* etc. podem ser singular ou plural.
 
+> ⚠️ **[revisar — comparação com inglês]** A nota compara latim e português com o inglês (*you are/were*). Para um leitor PT-BR, o contraste direto latim–português já seria suficiente — verificar se a menção ao inglês acrescenta valor pedagógico ou se pode ser suprimida.
+
 ## § 124 — Diálogo
 
 ### Os meninos Sextus e Marcus

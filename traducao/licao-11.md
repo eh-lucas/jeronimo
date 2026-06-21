@@ -66,7 +66,9 @@ Aprenda primeiro o vocabulário especial, p. 285.
 
 **I.** 1. Est¹ in vīcō nauta bonus. 2. Sextus est amīcus nautae bonī. 3. Sextus nautae bonō galeam dat. 4. Populus Rōmānus nautam bonum laudat. 5. Sextus cum nautā bonō praedam portat. 6. Ubi, nauta bone, sunt arma et tēla lēgātī Rōmānī? 7. Nautae bonī ad bellum properant. 8. Fāma nautārum bonōrum est clāra. 9. Pugnae sunt grātae nautīs bonīs. 10. Oppidānī nautās bonōs cūrant. 11. Cūr, nautae bonī, malī agricolae ad Rhēnum properant? 12. Malī agricolae cum bonīs nautīs pugnant.
 
-**II.** *(Traduzir para o latim — exercício originalmente em inglês, adaptado para o português)* ⚠️ **[revisar — comparação com inglês]** *O exercício II original é em inglês; as frases abaixo são tradução fiel para o português antes da versão em latim.*
+**II.** *(Traduzir para o latim — exercício originalmente em inglês, adaptado para o português)*
+
+> ⚠️ **[revisar — comparação com inglês]** O exercício II original é em inglês; as frases abaixo são tradução para o português. Verificar se cada frase PT captura fielmente o sentido da frase inglesa original antes de homologar.
 
 1. O mau agricultor está apressando-se para a aldeia com o (seu) butim. 2. A reputação do mau agricultor não é boa. 3. Por que a filha de Galba dá armas e projéteis ao mau agricultor? 4. Lésbias convida o bom marinheiro para o jantar. 5. Por que Lésbia está se apressando com o bom marinheiro para fora da cabana? 6. Sexto, onde está o meu elmo? 7. Os bons marinheiros estão se apressando para a penosa batalha. 8. Os cavalos dos maus agricultores são pequenos. 9. O povo romano dá dinheiro aos bons marinheiros. 10. Os amigos cuidam dos bons marinheiros. 11. Os amigos de quem estão lutando com os maus agricultores?
 

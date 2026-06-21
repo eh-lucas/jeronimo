@@ -54,6 +54,8 @@ A tabela a seguir mostra uma comparação entre as formas de declinação do por
 | **a** | | | | |
 | **l** | | | | |
 
+> ⚠️ **[revisar — terminologia]** A coluna "Casos do Português" usa o rótulo "Objetivo — caso do objeto" para o acusativo. O original inglês usa "objective case", termo da gramática tradicional inglesa. Em português, os substantivos não possuem morfologia de caso, e "objetivo" não é rótulo padronizado nas gramáticas brasileiras — verificar se é preferível omitir essa coluna ou substituir o rótulo.
+
 Quando o nominativo singular de um substantivo termina em **-a**, observe que:
 
 > *a.* O nominativo plural termina em **-ae**.

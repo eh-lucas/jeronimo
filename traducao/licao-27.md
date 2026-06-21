@@ -103,6 +103,8 @@ Aprenda primeiro o vocabulário especial, p. 288.
 |-------|----------|-------------------|
 | **āla, -ae**, f. | *asa* | — |
 | **deus, -ī**, m. | *deus* | *deity* (divindade)[^2] |
+
+> ⚠️ **[revisar — referência cultural]** "deity" é uma palavra inglesa, não portuguesa. A coluna "Cognato português" deveria trazer o equivalente em PT, p. ex. *deidade* ou *divindade* — ou um traço (—) se não houver cognato transparente.
 | **mōnstrum, -ī**, n. | *presságio, prodígio; monstro* | *monstro* |
 | **ōrāculum, -ī**, n. | *oráculo* | *oráculo* |
 | **vāstō, -āre** | *devastar, assolar* | — |

@@ -77,6 +77,8 @@ O modo imperativo expressa uma ordem; como, *vem!*, *envia!* O tempo presente do
 [^1]: Plural. Um adjetivo usado como substantivo. (Cf. § 99. II. 3.)
 [^2]: Imperativo. O imperativo geralmente ocupa o primeiro lugar, como em português.
 
+> ⚠️ **[revisar — comparação com inglês]** O original D'Ooge provavelmente diz "as in English" (primeira posição do imperativo). A nota foi adaptada para "como em português", mas a posição do imperativo em latim não é necessariamente idêntica à do português — convém verificar se a afirmação é válida ou se deve ser reformulada.
+
 ---
 
 > [Terceira Revisão, Lições XVIII–XXVI, §§ 510–512](../revisoes/revisao-III.md)

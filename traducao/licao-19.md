@@ -92,3 +92,5 @@ Indique a *voz*, o *modo*, o *tempo*, a *pessoa* e o *número* de cada forma.
 **II.** *(Traduzir para o latim — exercício originalmente em inglês)*
 
 1. Aramos, estamos arando, de fato aramos. 2. Eles cuidam de, estão cuidando de, de fato cuidam de. 3. Tu dás, tu estás tendo, tu de fato tens *(sing.)*. 4. Destruímos, anseio por, eles estão morando. 5. Ele chama, eles veem, estamos contando. 6. De fato lutamos, ordenamos, ele está movendo, ele prepara. 7. Eles estão trabalhando, matamos, você anuncia.
+
+> ⚠️ **[revisar — comparação com inglês]** As locuções "de fato aramos", "de fato cuidam de", "de fato tens" etc. traduzem o *emphatic present* inglês (*I do love*), que não tem equivalente gramatical em português. O exercício original pressupõe três formas do presente em inglês (simple/progressive/emphatic), mas em PT-BR há apenas duas (presente simples e perífrase com estar+gerúndio). Considerar adaptar o exercício para eliminar a terceira forma ou reformulá-la.

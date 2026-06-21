@@ -9,6 +9,8 @@ Aprendemos pela tabela (§ 33) que o nominativo, o genitivo e o acusativo latino
 > **Fīlia agricolae nautam amat**,
 > *a filha do lavrador* (ou *a filha do lavrador*) *ama o marinheiro*
 
+> ⚠️ **[revisar — OCR / forma latina]** A tradução entre parênteses repete o mesmo texto: "a filha do lavrador (ou a filha do lavrador)". O original provavelmente apresentava uma alternativa de tradução (p. ex., "a filha do agricultor" ou outra variante). Verificar o original Gutenberg para corrigir.
+
 Qual é o sujeito? Qual é o objeto direto? Em que caso está o sujeito? Em que caso está o objeto direto? Qual palavra indica o possuidor? Em que caso ela está?
 
 ---

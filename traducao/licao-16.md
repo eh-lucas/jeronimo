@@ -61,7 +61,9 @@ Aprenda os seguintes idiomatismos:
 
 ## § 111 — Exercícios
 
-**I.** 1. In utrā casā est Iūlia? Iūlia est in neutrā casā. 2. Nūllī malō puerō praemium dat magister. 3. Alter puer est nauta, alter agricola. 4. Aliī virī aquam, aliī terram amant. 5. Galba ūnus (*or* sōlus) cum studiō labōrat. 6. Estne ūllus carrus in agrō meō? 7. Lesbia est ancilla alterīus dominī, Tullia alterīus. 8. Lesbia sōla cēnam parat. 9. Cēna nūllīus alterīus ancillae est bona. 10. Lesbia nūllī aliī virō cēnam dat.
+**I.** 1. In utrā casā est Iūlia? Iūlia est in neutrā casā. 2. Nūllī malō puerō praemium dat magister. 3. Alter puer est nauta, alter agricola. 4. Aliī virī aquam, aliī terram amant. 5. Galba ūnus (*or* sōlus) cum studiō labōrat.
+
+> ⚠️ **[revisar — comparação com inglês]** A partícula "*or*" no item 5 está em inglês em vez de "*ou*". Verificar se é resquício do original não adaptado. 6. Estne ūllus carrus in agrō meō? 7. Lesbia est ancilla alterīus dominī, Tullia alterīus. 8. Lesbia sōla cēnam parat. 9. Cēna nūllīus alterīus ancillae est bona. 10. Lesbia nūllī aliī virō cēnam dat.
 
 > **Nota.** Os adjetivos pronominais, como se pode observar, normalmente precedem o substantivo a que se referem, em vez de segui-lo.
 
