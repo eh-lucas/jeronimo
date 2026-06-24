@@ -122,11 +122,36 @@ Tipos comuns de `<tipo>`:
 
 ---
 
-## Convenções do arquivo HTML (`traducao/manual.html`)
+## 9. Convenções de estilo do site (Hugo + Hextra)
 
-- Documento **único** acumulando todas as lições (não um arquivo por lição).
-- Classes CSS já definidas: `.lat` (latim), `.glossa` (tradução sob o exemplo),
-  `.nota` (nota destacada), `.obs` (observação/nota do tradutor), `.sec` (número §),
-  `.deriv` (cognatos), `.vocab` (lista de vocabulário), `.verso` (poesia).
-- Cada lição: `<h3 class="licao">` + `<h5 class="tema">` por seção §.
-- Atualizar o índice (`nav.toc`) ao acrescentar lições.
+O conteúdo publicado vive em `site/` (Hugo + tema Hextra, submódulo em
+`site/themes/hextra`). Estilos próprios ficam em **`site/assets/css/custom.css`**;
+overrides de layout, em `site/layouts/`.
+
+**Conteúdo das lições**
+- Latim no corpo do texto: usar o shortcode `{{</* lat */>}}` (classe `.lat`,
+  cor própria clara/dark via `--lat-cor`).
+- Classes de apoio: `.glossa` (tradução sob o exemplo), `.deriv` (cognatos),
+  `.sec` (número §), `.poema` (tabela bilíngue de poesia).
+- Macrons/breves preservados também no corpo em português (ver §2).
+
+**Identidade visual**
+- **Fundo cor de papel de livro:** variável `--papel-bg` em `:root` (claro,
+  `#f6f1e3`) e `.dark` (`#1a1813`), aplicada em `html body`. Todo novo tom de
+  fundo deve ter par claro/dark — o tema dark é suportado e não pode quebrar.
+- **Tamanho de fonte do leitor:** controle flutuante A−/A+ injetado pelo partial
+  `site/layouts/partials/custom/head-end.html` (o Hextra inclui `custom/head-end`,
+  não `custom/head`). O valor vai para `--content-font-size` e é aplicado a
+  `.content p/li/blockquote/td/th`; títulos ficam intocados.
+
+**Página inicial (`site/content/_index.md`)**
+- Índice lição a lição, agrupado por parte, dentro de `.home-wrap`
+  (centralizado, `max-width` 760px).
+- Cards em grade de 2 colunas no desktop e 1 no mobile; o card "Ao estudante"
+  fica isolado em `.home-card-single` (largura cheia, destacado).
+- Cada parte abre com um `##` (margem superior + divisória fina).
+- Ao publicar novas lições em `site/content/docs/...`, acrescentá-las também a
+  este índice e ao `_index.md` da parte correspondente.
+
+> O arquivo legado `traducao/manual.html` (single-file) está em vias de ser
+> aposentado em favor do site Hugo (ver `TODO.md`); não receber conteúdo novo.
