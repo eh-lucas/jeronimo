@@ -79,12 +79,12 @@
 }
 
 /* Parágrafos, listas, citações e tabelas usam o tamanho configurável.
-   Títulos (h1–h6) ficam intocados. */
-.prose p,
-.prose li,
-.prose blockquote,
-.prose td,
-.prose th {
+   Títulos (h1–h6) ficam intocados. O conteúdo do tema usa a classe `.content`. */
+.content p,
+.content li,
+.content blockquote,
+.content td,
+.content th {
   font-size: var(--content-font-size);
 }
 
