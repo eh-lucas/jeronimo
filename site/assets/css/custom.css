@@ -137,3 +137,47 @@ html body {
   pointer-events: none;
   user-select: none;
 }
+
+/* ===== Página inicial: índice centralizado ===== */
+.home-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* Hero centralizado no desktop */
+.home-wrap .hextra-hero-headline,
+.home-wrap .hextra-hero-subtitle {
+  text-align: center;
+}
+
+/* Espaço entre as seções do índice */
+.home-wrap h2 {
+  margin-top: 3rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 0.4rem;
+}
+.dark .home-wrap h2 {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Grade de cards centralizada (2 colunas no desktop, 1 no mobile) */
+.home-wrap .hextra-cards {
+  justify-content: center;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 640px) {
+  .home-wrap .hextra-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Card único ("Ao estudante") ocupa a largura toda e fica destacado */
+.home-card-single .hextra-cards {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}

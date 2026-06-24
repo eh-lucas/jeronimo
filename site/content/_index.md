@@ -4,20 +4,23 @@ layout: hextra-home
 toc: false
 ---
 
+<div class="home-wrap">
+
 {{< hextra/hero-headline >}}
   Latim para Iniciantes
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
-  Tradução e adaptação para o português de *Latin for Beginners*,&nbsp;
-  de Benjamin L. D'Ooge (1911).
+  Tradução e adaptação para o português de *Latin for Beginners*, de Benjamin L. D'Ooge (1911).
 {{< /hextra/hero-subtitle >}}
 
-<br /><br />
+<div class="home-card-single">
 
 {{< cards >}}
   {{< card link="docs/introducao" title="Ao estudante" subtitle="A título de introdução — o que é o latim e por que estudá-lo." >}}
 {{< /cards >}}
+
+</div>
 
 ## Parte I — Pronúncia
 
@@ -36,3 +39,5 @@ toc: false
   {{< card link="docs/parte-2-palavras-e-formas/licao-01" title="Lição I — Primeiros princípios (§§ 19–22)" >}}
   {{< card link="docs/parte-2-palavras-e-formas/licao-02" title="Lição II — Primeiros princípios, cont. (§§ 23–31)" >}}
 {{< /cards >}}
+
+</div>
