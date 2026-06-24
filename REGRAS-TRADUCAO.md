@@ -142,7 +142,8 @@ overrides de layout, em `site/layouts/`.
 - **Tamanho de fonte do leitor:** controle flutuante A−/A+ injetado pelo partial
   `site/layouts/partials/custom/head-end.html` (o Hextra inclui `custom/head-end`,
   não `custom/head`). O valor vai para `--content-font-size` e é aplicado a
-  `.content p/li/blockquote/td/th`; títulos ficam intocados.
+  `.content p/li/blockquote/td/th` e ao texto dos callouts (notas/observações,
+  que ficam num `div.hx:leading-7` sem `<p>`); títulos ficam intocados.
 
 **Página inicial (`site/content/_index.md`)**
 - Índice lição a lição, agrupado por parte, dentro de `.home-wrap`

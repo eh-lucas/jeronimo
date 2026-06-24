@@ -91,7 +91,10 @@ html body {
 .content li,
 .content blockquote,
 .content td,
-.content th {
+.content th,
+/* texto dentro dos callouts (notas/observações azuis): fica direto num
+   <div hx:leading-7>, sem <p>, então precisa ser alvo explícito */
+.content div[class*="leading-7"] {
   font-size: var(--content-font-size);
 }
 
