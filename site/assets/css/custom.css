@@ -3,10 +3,17 @@
 :root {
   --lat-cor: #9a4b00;
   --glossa-cor: #6b7280;
+  --papel-bg: #f6f1e3;   /* fundo cor de papel de livro (tema claro) */
 }
 .dark {
   --lat-cor: #e0a060;
   --glossa-cor: #9ca3af;
+  --papel-bg: #1a1813;   /* tom escuro levemente quente (tema dark) */
+}
+
+/* Fundo "página de livro" — preserva o tema dark */
+html body {
+  background-color: var(--papel-bg) !important;
 }
 
 /* Palavras/exemplos em latim */
